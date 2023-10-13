@@ -30,5 +30,5 @@ branch = "qa"
 
 resource "github_branch" "release" {
 repository = github_repository.infratics_sample_repo.name
-branch = "qa"
+branch = "release"
 }
